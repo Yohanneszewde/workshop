@@ -1,0 +1,226 @@
+body {
+  font-family: 'Alegreya', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #ffffff;
+	background-position: center top;
+
+  margin: auto;
+  width: 1080px;
+  height: 3470px;
+}
+  /*header starts here*/ 
+  
+  header {
+    background-image: url("images/DesLegumes/header_agri_03.jpg");
+    min-height: 286px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    width: 1080px;
+    border-radius: 5px;
+    border-top:5px solid #bdbdbd;
+    border-right:5px solid #bdbdbd;
+    border-bottom:5px solid #bdbdbd;
+    border-left:5px solid #bdbdbd;
+  }
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .topnav {
+
+
+    overflow: hidden;
+    background-color: #333;
+
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #4CAF50;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ff00ff;
+    color: white;
+  }
+  
+        /*The @media screen is not yet clear for me and I need to learn*
+        
+   @media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+  }       
+        
+        
+        
+        /
+  
+
+   /*header ends here*/ 
+
+  /*main starts here*/ 
+
+main {
+  width: 1080px;
+  margin: 0px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding:0 0px;
+  border-top:5px solid #bdbdbd;
+  border-right:5px solid #bdbdbd;
+  border-bottom:5px solid #bdbdbd;
+  border-left:5px solid #bdbdbd;
+  display: block;
+  padding:auto;
+  margin:auto;
+  left: 5;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column_img {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row_img::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  }
+
+  .left {
+    width: 100%;
+    height: 100%;
+ 
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0px;
+        margin-top: 30px;
+
+        }
+
+*/
+
+content {
+  width: 900px;
+  margin: 0px auto;
+  background-color: aquamarine;
+}
+p {
+  font-size: 16px;
+  text-align: justify;
+  ;  
+}
+hr {
+  border: 0;
+  border-top: 28px solid transparent;
+  border-bottom: 15px solid #fff;
+  border-radius: 25px;
+}
+time{
+  font-size: 20px;
+}
+
+  /*main ends here*/ 
+
+footer {
+  background-color: #333;
+  font-size: .7em;
+  left: auto;
+  margin: auto;
+  text-align: justify;
+  color: antiquewhite;
+  }
+
+
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column_fa_1 {
+    float: left;
+    width: 23%;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .column_fa_2 {
+    float: left;
+    width: 54%;
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .column_fa_3 {
+    float: left;
+    width: 23%;
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row_fa::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+  /*Footer starts here*/
+
