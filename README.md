@@ -1,3 +1,2 @@
 # workshop
-Workshop
-My work in class
+A mirror of my "Project" folder containing the exercises I made in Powercoders class.
