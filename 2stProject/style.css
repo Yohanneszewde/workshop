@@ -6,48 +6,44 @@ body {
 	background-position: center top;
 
   margin: auto;
-  width: 1080px;
-  height: 3470px;
+  width: 100%;
+  height: 100%;
 }
   /*header starts here*/ 
-  
-  header {
-    background-image: url("images/DesLegumes/header_agri_03.jpg");
-    min-height: 286px;
+h1, h2 {
+  margin-left: .75em;
+}
+p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+   }
+header {
+    background-image: url("images/DesLegumes/atmospheric-background-beautiful-531872.jpg");
+    min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-    width: 1080px;
-    border-radius: 5px;
-    border-top:5px solid #bdbdbd;
-    border-right:5px solid #bdbdbd;
-    border-bottom:5px solid #bdbdbd;
-    border-left:5px solid #bdbdbd;
-  }
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  .topnav {
-
-
-    overflow: hidden;
-    background-color: #333;
+    width: 100%;
 
   }
-  
+
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 8px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 500;
+    border-right: 1px solid #4CAF50;
+    border-width: 5px;
+    background-color: hsl(14, 100%, 53%);
+    overflow: hidden;
   }
   
   .topnav a:hover {
@@ -55,50 +51,20 @@ body {
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #ff00ff;
-    color: white;
-  }
-  
-        /*The @media screen is not yet clear for me and I need to learn*
-        
-   @media screen and (max-width: 900px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 900px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
 
-  }       
-        
-        
-        
-        /
-  
 
+  
    /*header ends here*/ 
 
   /*main starts here*/ 
 
 main {
-  width: 1080px;
+  width: 1280px;
   margin: 0px;
   background-color: #f2f2f2;
-  border-radius: 5px;
+  border-width: 5px;
+  border-color: beige;
   padding:0 0px;
-  border-top:5px solid #bdbdbd;
-  border-right:5px solid #bdbdbd;
-  border-bottom:5px solid #bdbdbd;
-  border-left:5px solid #bdbdbd;
   display: block;
   padding:auto;
   margin:auto;
@@ -115,112 +81,146 @@ main {
   }
   
   /* Clearfix (clear floats) */
+
+
+  .center { 
+    margin: 0 auto; 
+    width: 650px; 
+  }
+
+
+hr {
+  border-bottom: 25px solid #fff;
+  border-radius: 25px;
+}
+
+
+  /*main ends here*/ 
+   /*Footer starts here*/
+
+footer {
+  background-image: url("images/DesLegumes/astro-astronomy-background.jpg");
+  font-size: .7em;
+  left: auto;
+  height: 520px;
+  margin: auto;
+  text-align: justify;
+  color: white;
+  /* color: greenyellow; */
+  }
+
+  time{
+    font-size: 20px;
+  } 
   .row_img::after {
     content: "";
     clear: both;
     display: table;
+    
   }
-
-* {
-    box-sizing: border-box;
-  }
-  .column {
+  .column_footer_1 {
     float: left;
-    padding: 10px;
-    height: 300px; 
-  }
-
-  .left {
-    width: 100%;
-    height: 100%;
- 
-  }
-  
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /*
-      .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        padding: 0px;
-        margin-top: 30px;
-
-        }
-
-*/
-
-content {
-  width: 900px;
-  margin: 0px auto;
-  background-color: aquamarine;
-}
-p {
-  font-size: 16px;
-  text-align: justify;
-  ;  
-}
-hr {
-  border: 0;
-  border-top: 28px solid transparent;
-  border-bottom: 15px solid #fff;
-  border-radius: 25px;
-}
-time{
-  font-size: 20px;
-}
-
-  /*main ends here*/ 
-
-footer {
-  background-color: #333;
-  font-size: .7em;
-  left: auto;
-  margin: auto;
-  text-align: justify;
-  color: antiquewhite;
-  }
-
-
-  
-
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column_fa_1 {
-    float: left;
-    width: 23%;
+    width: 75%;
     padding: 5px;
-    padding-left: 10px;
+    padding-left: 150px;
   }
-  .column_fa_2 {
+  .column_footer_2 {
     float: left;
-    width: 54%;
-    padding: 5px;
-    padding-left: 10px;
-  }
-  .column_fa_3 {
-    float: left;
-    width: 23%;
+    width: 25%;
     padding: 5px;
     padding-left: 10px;
   }
 
   /* Clearfix (clear floats) */
-  .row_fa::after {
+  .row_footer::after {
     content: "";
     clear: both;
     display: table;
   }
+  /* copyright lower black strech 100%*/
+.copyright {
+    bottom: 0;
+    height:60px;
+    background-color:black ;
+    position: relative;
+    width: 100%;
+    color:whitesmoke; 
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+} 
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+  position: fixed;
+  bottom: 100px;
+  float: right;
+  right: 5%;
+  left: 95%;
+  max-width: 60px;
+  width: 100%;
+  font-size: 16px;
+  border-color: rgb(255, 20, 147);
+  background-color: rgb(255, 71, 20);
+  padding: .5px;
+  border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
 
 
 
-  /*Footer starts here*/
 
+/* .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+.socialMedia:hover .image {
+  opacity: 0.5;
+}
+
+/* .socialMedia:hover .middle {
+  opacity: 1;
+} */
+
+/* .text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 12px;
+  padding: 16px 32px;
+} */
+
+
+
+
+
+        /* The @media screen is not yet clear for me and I need to learn* */
+        
+        /* @media screen and (max-width: 900px) {
+          .topnav a:not(:first-child) {display: none;}
+          .topnav a.icon {
+            float: right;
+            display: block;
+          }
+        }
+        
+        @media screen and (max-width: 400px) {
+          .topnav.responsive {position: relative;}
+          .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+      
+        }  */
