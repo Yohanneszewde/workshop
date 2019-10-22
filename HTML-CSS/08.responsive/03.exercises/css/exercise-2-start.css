@@ -1,0 +1,63 @@
+/* DESKTOP FIRST APPRPACJ
+ * Break points :
+ * 1200px -> 992px -> 768px -> 576px 
+--------------------------------------------*/
+header {
+  min-height: 100px;
+  background-color: #fc0;
+}
+main{
+  min-height: 400px;
+  display: flex;
+  text-align: center;
+}
+article, aside {
+  display: flex;
+  align-items: center;
+}
+article {
+  background-color: #f5f5f5;
+  width: 75%;
+}
+aside {
+  background-color: #cccccc;
+  width: 25%;
+}
+/* STYLES PAR DEFAUT - POUR "PHONES" < 576px
+--------------------------------------------*/
+@media (max-width: 650px){
+  main {
+    display: block;
+  }
+  article, aside {
+    width: 100%;
+    display: block;
+    min-height: 200px;
+  }
+
+}
+
+
+/* POUR "PHONES"
+ * @media (min-width: 576px)
+--------------------------------------------*/
+
+
+
+/* POUR "TABLETTES" orientation PORTRAIT
+ * @media (min-width: 768px)
+--------------------------------------------*/
+
+
+
+/* POUR "TABLETTES" orientation PAYSAGE
+ * et écrans petite résolution
+ * @media (min-width: 992px)
+--------------------------------------------*/
+
+
+
+/* POUR ORDINATEURS AFFICHAGE HD
+ * @media (min-width: 1200px)
+--------------------------------------------*/
+/* rien à faire... */

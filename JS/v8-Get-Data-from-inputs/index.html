@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List - v8 Get data from inputs !</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<p><button id="btnDisplay" onclick="todos.displayTodos()" >Display todos</button></p>
+<p><button id="btnToggleAll" onclick="todos.toggleAll()">Toogle all</button></p>
+
+<p class="row">
+  <input id="inputAdd" type="text" placeholder="Todo Text">
+  <button id="btnAdd" onclick="handlers.addTodo();">Add Todo</button>
+</p>
+
+<p class="row">
+  <input id="inputChangeIndex" class="index" type="number" min="0" placeholder="Index">  
+  <input id="inputChangeText" type="text"  placeholder="Todo Text">
+    <button id="btnChange">Add Todo</button>
+</p>
+<p class="row">
+    <input id="inputToggleIndex" class="index" type="number" min="0" placeholder="Index">  
+    <button id="btnToggle" onclick="handlers.toggleTodo">Toggl Todo</button>
+</p>
+<p class="row">
+    <input id="inputDeleteIndex" class="index" type="number" min="0" placeholder="Index">  
+    <button id="btnToggle">Delete Todo</button>
+</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
